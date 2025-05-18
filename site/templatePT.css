@@ -1,0 +1,9 @@
+#con
+{
+   border: 3px solid black;
+   max-width: 1200px;
+   min-height: 500px;
+   margin-bottom: 40px;
+   border-radius: 10px;
+   background-color:white;
+}

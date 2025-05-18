@@ -1,0 +1,12 @@
+#p {
+    border: 2px solid black;
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    padding: 10px; 
+    border-radius: 5px;
+    background-color: #016857;
+    box-sizing: border-box; 
+}

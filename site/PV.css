@@ -1,0 +1,76 @@
+#republique {
+    border: 2px solid black;
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 10px; 
+    border-radius: 5px;
+    background-color: #016857;
+    box-sizing: border-box; 
+}
+
+
+#plus_minus {
+    width: 10px; 
+    height: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+
+.pv_image{
+    width:1200px;
+    height: auto;
+}
+
+textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 2px solid #ccc; 
+    border-radius: 4px; 
+    resize: vertical; /* Permet à l'utilisateur de redimensionner verticalement */
+    font-size: 16px; 
+}
+
+textarea:focus {
+    border-color: #c2dcff; 
+    outline: none; /* Retirer le contour par défaut */
+}
+
+
+
+.add_mince {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+@media (max-width: 768px) {
+    .add_mince img {
+        width: 15px; /* Réduire la taille des icônes sur les petits écrans */
+        height: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .row.text-end.p-2 {
+        flex-direction: column-reverse; /* Pour mettre le label au-dessus de l'input sur les petits écrans */
+    }
+    
+    .row.text-end.p-2 input,
+    .row.text-end.p-2 label {
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .add_mince {
+        margin-top: 10px;
+        
+    }
+}
+
